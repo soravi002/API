@@ -1,0 +1,47 @@
+/* Style de la liste des utilisateurs */
+.user-list {
+  font-family: Arial, sans-serif;
+  max-width: 1500px;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* Style des cartes utilisateur */
+.user-card {
+  width: calc(33.33% - 50px); /* Pour avoir 3 cartes par rangée avec un espace entre */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre */
+.user-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Style des détails utilisateur */
+.user-detail {
+  margin-bottom: 10px;
+}
+
+/* Style du lien */
+.user-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.user-link:hover {
+  color: #0056b3;
+}
